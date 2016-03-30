@@ -7,6 +7,10 @@
 class Rete //IMPLEMENTATO TRAMITE HEAP TEMPLETIZZATO??
 {
 public:
+    typedef QMap <QString ,SmartUtente>::iterator rete_iterator;
+    typedef QMap <QString ,SmartUtente>::const_iterator rete_const_iterator;
+
+    Rete()=default;
     Rete(const SmartUtente&);
 
     //GET
@@ -29,12 +33,10 @@ public:
 
 
     //iteratori
- /*
     rete_iterator begin();
     rete_iterator end();
     rete_const_iterator begin() const;
     rete_const_iterator end() const;
-*/
 
 private:
     QMap <QString ,SmartUtente> contatti;
