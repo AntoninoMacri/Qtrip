@@ -20,7 +20,8 @@ SOURCES += main.cpp\
     Model/Persona/nato.cpp \
     Model/Diario/viaggio.cpp \
     Model/Diario/recensione.cpp \
-    Model/Diario/diario.cpp
+    Model/Diario/diario.cpp \
+    Model/Utente/smartutente.cpp
 
 HEADERS  += mainwindow.h \
     Model/Persona/luogo.h \
@@ -29,6 +30,9 @@ HEADERS  += mainwindow.h \
     Model/Persona/nato.h \
     Model/Diario/viaggio.h \
     Model/Diario/recensione.h \
-    Model/Diario/diario.h
+    Model/Diario/diario.h \
+    Model/Utente/smartutente.h
 
 FORMS    += mainwindow.ui
+
+DISTFILES +=
