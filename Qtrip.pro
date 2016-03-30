@@ -21,7 +21,8 @@ SOURCES += main.cpp\
     Model/Diario/viaggio.cpp \
     Model/Diario/recensione.cpp \
     Model/Diario/diario.cpp \
-    Model/Utente/smartutente.cpp
+    Model/Utente/smartutente.cpp \
+    Model/Utente/rete.cpp
 
 HEADERS  += mainwindow.h \
     Model/Persona/luogo.h \
@@ -31,7 +32,8 @@ HEADERS  += mainwindow.h \
     Model/Diario/viaggio.h \
     Model/Diario/recensione.h \
     Model/Diario/diario.h \
-    Model/Utente/smartutente.h
+    Model/Utente/smartutente.h \
+    Model/Utente/rete.h
 
 FORMS    += mainwindow.ui
 
