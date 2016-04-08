@@ -6,6 +6,9 @@
 #include <Model/Persona/persona.h>
 #include <Model/Diario/diario.h>
 
+#include <Model/Utente/rete.h>
+#include <Model/Utente/nodo.h>
+
 int main(int argc, char *argv[])
 {/*
     QApplication a(argc, argv);
@@ -46,4 +49,9 @@ int main(int argc, char *argv[])
     dr1.addGiornata(1,temp);
     qDebug() <<"titolo del viaggio-diario: "<<dr1.getGiornata(1).getTitolo();
     qDebug() <<"numero giorni inseriti per questo dirio: "<<dr1.getDiario().size();
+
+    nodo<int> n1("user1", 1);
+ //   nodo<int> n1;
+    qDebug() <<endl<<"nodo1:  "<<n1.getUser()<<" "<<n1.getInfo();
+
 }

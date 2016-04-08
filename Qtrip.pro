@@ -33,7 +33,8 @@ HEADERS  += mainwindow.h \
     Model/Diario/recensione.h \
     Model/Diario/diario.h \
     Model/Utente/smartutente.h \
-    Model/Utente/rete.h
+    Model/Utente/rete.h \
+    Model/Utente/nodo.h
 
 FORMS    += mainwindow.ui
 
